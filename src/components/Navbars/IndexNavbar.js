@@ -1,21 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  Button,
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
   Nav,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip
+  Container
 } from "reactstrap";
 
 export default function IndexNavbar() {
@@ -57,11 +49,11 @@ export default function IndexNavbar() {
     setCollapseOut("");
   };
 
-  const scrollToDownload = () => {
+  /*const scrollToDownload = () => {
     document
       .getElementById("download-section")
       .scrollIntoView({ behavior: "smooth" });
-  };
+  };*/
 
   return (
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
