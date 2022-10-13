@@ -12,13 +12,11 @@ const Introduction = () => {
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
             <h2 className="title">
-              Do you love this Bootstrap 4 React Design System?
+              Fascinating universe
             </h2>
             <h4 className="description">
-              Cause if you do, it can be yours for FREE. Hit the button below to
-              navigate to Creative Tim where you can find the design system in
-              React format. Start a new project or give an old Bootstrap project
-              a new look!
+              The universe is more than just stars, dust, and empty space.
+              Explore some of the objects that make up our universe, from comet to black holes.
             </h4>
           </Col>
           {/*<Col className="text-center" lg="8" md="12">
